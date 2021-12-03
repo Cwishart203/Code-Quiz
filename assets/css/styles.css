@@ -4,7 +4,7 @@ body {
   }
   
   a {
-    color: #245726;
+    color: #000000;
     text-decoration: none;
     transition: color 0.1s;
   }
@@ -49,9 +49,9 @@ body {
     list-style: decimal inside none;
   }
   
-  /* li:nth-child(odd) {
-    background-color: #c7ae6a;
-  } */
+  li:nth-child(odd) {
+    background-color: #ffe69b;
+  }
   
   .wrapper {
     margin: 100px auto 0 auto;
@@ -90,5 +90,6 @@ body {
   
 
 body {background-color: lightgoldenrodyellow;
-font-family: fantasy;
+font-family: 'Tolkien', sans-serif; 
+font-weight: 200; 
 background-image: url("https://wallpaperaccess.com/full/2796640.jpg");}
