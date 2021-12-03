@@ -4,28 +4,34 @@
 // Global variable for applicatoin state
 var questions = [
     {
-        text: "Question 1: What kind of being was Gandalf?",
-        choices: ["Human", 'Elf', "Maiar", "Valar"],
+        text: "Question 1: Who is the ruler of Rivendell?",
+        choices: ["Galadriel", "Thranduil", "Elrond", "Denethor"],
+        answer: "Elrond"
+    },
+    {
+        text: "Question 2: What kind of being was Gandalf?",
+        choices: ["Human", "Elf", "Maiar", "Valar"],
         answer: "Maiar"
     },
     {
-        text: "Question 2: What Age did the Fall of Numenor occur?",
-        choices: ["First Age", 'Second Age', "Third Age", "Fourth Age"],
+        text: "Question 3: What Age did the Fall of Numenor occur?",
+        choices: ["First Age", "Second Age", "Third Age", "Fourth Age"],
         answer: 'Second Age'
     },
     {
-        text: "Question 3: Who was the first dark lord in Arda's history?",
+        text: "Question 4: What was the name of the sword reforged from the shards of Narsil?",
+        choices: ["Anduril", "Gurthang", "Glamdring", "Orcrist"],
+        answer: "Anduril"
+    },
+    {
+        text: "Question 5: Who was the first dark lord in Arda's history?",
         choices: ["Ungoliant", 'Ancalagon', "Sauron", "Morgoth"],
         answer: "Morgoth"
     },
-    {
-        text: "Question 4: What was the name of the sword reforged from the shards of Narsil?",
-        choices: ["Anduril", 'Gurthang', "Glamdring", "Orcrist"],
-        answer: "Anduril"
-    },
+
 ]
 
-var TIME_PER_QUESTION = 7;
+var TIME_PER_QUESTION = 6;
 var quizQuestionsIndex = 0;
 var timerId;
 var timeCount = questions.length * TIME_PER_QUESTION;

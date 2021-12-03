@@ -1,12 +1,16 @@
 body {
-    font-family: Arial;
-    font-size: 120%;
+    background-color: lightgoldenrodyellow;
+    font-family: 'Tolkien', sans-serif; 
+    background-image: url("https://wallpaperaccess.com/full/2796640.jpg");
+    background-size: auto;
+    font-size: 200%;
   }
   
   a {
     color: #000000;
     text-decoration: none;
     transition: color 0.1s;
+    font-size: 80%;
   }
   
   a:hover {
@@ -89,7 +93,3 @@ body {
 
   
 
-body {background-color: lightgoldenrodyellow;
-font-family: 'Tolkien', sans-serif; 
-font-weight: 200; 
-background-image: url("https://wallpaperaccess.com/full/2796640.jpg");}
