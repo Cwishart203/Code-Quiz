@@ -4,28 +4,28 @@
 // Global variable for applicatoin state
 var questions = [
     {
-        text: "My code quiz question 1",
-        choices: ["user choice 1", 'user choice 2', "userchoice 3", "user's final choice"],
-        answer: "user choice 1"
+        text: "Question 1: What kind of being was Gandalf?",
+        choices: ["Human", 'Elf', "Maiar", "Valar"],
+        answer: "Maiar"
     },
     {
-        text: "My code quiz question 2",
-        choices: ["user choice 1", 'user choice 2', "userchoice 3", "user's final choice"],
-        answer: 'user choice 2'
+        text: "Question 2: What Age did the Fall of Numenor occur?",
+        choices: ["First Age", 'Second Age', "Third Age", "Fourth Age"],
+        answer: 'Second Age'
     },
     {
-        text: "My code quiz question 3",
-        choices: ["user choice 1", 'user choice 2', "userchoice 3", "user's final choice"],
-        answer: "user choice 1"
+        text: "Question 3: Who was the first dark lord in Arda's history?",
+        choices: ["Ungoliant", 'Ancalagon', "Sauron", "Morgoth"],
+        answer: "Morgoth"
     },
     {
-        text: "My code quiz question 4",
-        choices: ["user choice 1", 'user choice 2', "userchoice 3", "user's final choice"],
-        answer: "user choice 1"
+        text: "Question 4: What was the name of the sword reforged from the shards of Narsil?",
+        choices: ["Anduril", 'Gurthang', "Glamdring", "Orcrist"],
+        answer: "Anduril"
     },
 ]
 
-var TIME_PER_QUESTION = 5;
+var TIME_PER_QUESTION = 7;
 var quizQuestionsIndex = 0;
 var timerId;
 var timeCount = questions.length * TIME_PER_QUESTION;

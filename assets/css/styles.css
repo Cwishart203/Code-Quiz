@@ -4,13 +4,13 @@ body {
   }
   
   a {
-    color: #563d7c;
+    color: #245726;
     text-decoration: none;
     transition: color 0.1s;
   }
   
   a:hover {
-    color: #8570a5;
+    color: #85a570;
   }
   
   button {
@@ -18,7 +18,7 @@ body {
     margin: 5px;
     cursor: pointer;
     font-size: 100%;
-    background-color: #563d7c;
+    background-color: #245726;
     border-radius: 5px;
     padding: 2px 10px;
     color: white;
@@ -27,7 +27,7 @@ body {
   }
   
   button:hover {
-    background-color: #8570a5;
+    background-color: #a59470;
   }
   
   .choices button {
@@ -49,9 +49,9 @@ body {
     list-style: decimal inside none;
   }
   
-  li:nth-child(odd) {
-    background-color: #f3edfc;
-  }
+  /* li:nth-child(odd) {
+    background-color: #c7ae6a;
+  } */
   
   .wrapper {
     margin: 100px auto 0 auto;
@@ -77,8 +77,8 @@ body {
     font-size: 120%;
     margin-top: 20px;
     padding-top: 10px;
-    color: gray;
-    border-top: 2px solid #ccc;
+    color: rgb(22, 22, 22);
+    border-top: 2px solid rgb(22, 22, 22);
   }
   
   .timer {
@@ -89,4 +89,6 @@ body {
 
   
 
-  
+body {background-color: lightgoldenrodyellow;
+font-family: fantasy;
+background-image: url("https://wallpaperaccess.com/full/2796640.jpg");}
