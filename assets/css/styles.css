@@ -6,6 +6,11 @@ body {
     font-size: 200%;
   }
   
+  @font-face {
+    font-family: 'Tolkien';
+    src: url(http://fonts.cdnfonts.com/css/tolkien);
+  }
+  
   a {
     color: #000000;
     text-decoration: none;
